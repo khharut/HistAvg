@@ -1,0 +1,18 @@
+Package: HistAvg2
+Type: Package
+Title: Calculates dynamic thresholds for historical data using
+        quantiles
+Version: 1.104
+Date: 2018-01-14
+Author: Harutyun Khachatryan, Anoush Ghmabaryan, Tigran Khachikyan, Vahe
+    Hakobyan
+Maintainer: Harutyun Khachatryan  <kh_harut@yahoo.com>
+Description: Calculates authomatic thresholds based on historical averages.
+Depends: R (>= 3.0.0), stats
+Suggests: methods
+Imports: RJSONIO (>= 0.8-2), simecol, gmp, rjson, forecast, ggplot2,
+        pracma
+License: GPL (>= 2)
+LazyData: TRUE
+RoxygenNote: 6.0.1
+NeedsCompilation: no
